@@ -3,6 +3,7 @@ const addNumber = document.querySelector(".counter_add");
 const subNumber = document.querySelector(".counter_sub");
 const reload = document.querySelector(".counter_reload");
 const maxDigit = 2;
+number.value = 0;
 addNumber.addEventListener("click", function () {
   number.value++;
   number.style.color = "green";
